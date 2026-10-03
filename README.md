@@ -29,6 +29,7 @@ I created a [Figma Jam](https://www.figma.com/board/xuDRhRUVjItJ5sSZrH4wHU/Datab
 - But it does seem more difficult and it is a relational database, so it is less flexible.
 - We probably won't use this one, but it would be good to consider if our client needs the space.
 
+![database comparisons](./images/DatabaseResearch.png)
 
 ### Starting a website
 
@@ -37,6 +38,9 @@ We talked a bit about this in class with one of our friends who is super good at
 At the same time, my personal concern was that we needed a server to handle database request, so I resorted to making a node.js server. I made one of these in a College class, so I know that it is possible, but now that i have AI at my fingertips, i can easily refresh my memory or follow along with its guidance.
 
 I also connected to the MongoDB database, so that it would be easier for us to work on all the parts of the projects at the same time.
+
+![React](./images/ReactPage.png)
+![Database Table](./images/DatabaseTable.png)
 
 ### Potential Concerns
 Hosting might be an issue, but alledgedly Render can handle hosting a node.js server and the frontend.
