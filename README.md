@@ -1,6 +1,53 @@
 # CART470JOURNAL
 
-## (NEW) WEEK 3: Visual Prototyping
+## (NEW) WEEK 4: Setting Up
+
+My task for this week is to research databases and set up the website.
+
+### Databases
+I created a [Figma Jam](https://www.figma.com/board/xuDRhRUVjItJ5sSZrH4wHU/Databases?node-id=0-1&t=04BX6yEVwJPMQP4k-1) to research 3 of the most promising database services that I could find.
+
+**AirTable DB**
+- Its really good for our client to easily add new entries to the database without knowing any coding. 
+- It also has a decent amount of storage space for its free tier (1 GB). 
+- However, it has a limit of 1000 api calls a month. Considering that we are not *that* experienced with React and professional web development, we are probably gonna end up using all of the quota.
+- Once we have everything properly setup, we can maybe revisit the idea of switching to this database if we need more space. Otherwise, the client was okay with using other databases as long as we provide an easy way for them to upload and edit information.
+
+
+**MongoDB**
+- I kind of worked with this one when I was in cegep. However it has been a while.
+- It has an okayish storage size for the free tier (512 MB)
+- It apparently is a part of something called the MERN stack (Mongo, Express, React, Node.js) which we were gonna use the other 3 for our webpage.
+- It does have an online webpage to access the database, however it is extremely beginner unfriendly. As such, we will need to develop an Admin Page.
+- I will use this to start, since it seems to be well integrated with react JS
+
+
+**MariaDB**
+- This one has a lot of storage *I think* with over 64 TB of space or whatever the hosting site limit is.
+- It is also FREE and open source
+- It is technically more ethical
+- But it does seem more difficult and it is a relational database, so it is less flexible.
+- We probably won't use this one, but it would be good to consider if our client needs the space.
+
+
+### Starting a website
+
+We talked a bit about this in class with one of our friends who is super good at comp sci stuff, he recommended using React for the components which would be useful for making interactive and dynamically generated Arrows or something. I wasn't really paying attention but I also wanted to practice react some more.
+
+At the same time, my personal concern was that we needed a server to handle database request, so I resorted to making a node.js server. I made one of these in a College class, so I know that it is possible, but now that i have AI at my fingertips, i can easily refresh my memory or follow along with its guidance.
+
+I also connected to the MongoDB database, so that it would be easier for us to work on all the parts of the projects at the same time.
+
+### Potential Concerns
+Hosting might be an issue, but alledgedly Render can handle hosting a node.js server and the frontend.
+
+Since MongoDB is not very easy to manage, we are gonna have to create a decent UI to handle database operation, this will take away some time working on the project.
+
+
+---
+
+
+## WEEK 3: Visual Prototyping
 
 After meeing up with Elizabeth Miller, we got a loooot of information and ideas of what to implement into our final product.
 However, each new idea that were being brought up kind of conflicted with eachother design-wise.
