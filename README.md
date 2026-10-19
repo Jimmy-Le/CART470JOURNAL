@@ -1,6 +1,26 @@
 # CART470JOURNAL
 
-## (NEW) WEEK 4: Setting Up
+## (NEW) WEEK 5: Website Components
+
+What I did during this week was create some of the components that we listed out on the kanban.
+
+- Island Lists
+    - ![island list](./images/component2.png)
+- Island Component (with Sherwin's starter code)
+    - I didn't snap a pic, but it looks like an island
+- Informational Component
+    - ![information](./images/component3.png)
+- Island Preview
+    - Tags
+    - Island Thumbnail
+    - ![preview](./images/component1.png)
+
+Other than that, I added in Tailwind.css to the project so that it is easier to style individual components.
+
+This week has *not* been it for me.
+
+
+## WEEK 4: Setting Up
 
 My task for this week is to research databases and set up the website.
 
