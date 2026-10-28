@@ -1,6 +1,16 @@
 # CART470JOURNAL
+## (NEW) WEEK 6: 
 
-## (NEW) WEEK 5: Website Components
+I planned to work more on the project during class time for this week.
+
+But other than that, I added in a Routing system to help us separate our webpage into different parts as well as allowing us to work on different sections without constantly updating the main page.
+
+I also kinda thought about the way data is gonna be organized in the database and the possible layout for the admin page.
+![Database Plans](./images/DatabasePlan.png)
+
+
+
+## WEEK 5: Website Components
 
 What I did during this week was create some of the components that we listed out on the kanban.
 
