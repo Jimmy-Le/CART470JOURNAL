@@ -1,5 +1,48 @@
 # CART470JOURNAL
-## (NEW) WEEK 6: 
+## (NEW) WEEK 7:
+
+    This week, I worked on making the admin page!
+
+    While the code is like 110% AI generated, I made sure to read and understand what each part was doing and combined it with my own knowledge about this stuff. I usually don't like doing this, but since this isn't a programming class and we kinda have a deadline, i'll give myself a pass for now.
+
+    After meeting up with Liz during class this week, she showed me her AirTable database to help give me an idea of what kind of data she is used to working with. So for my admin page, I wanted it to have a similar table layout that she is used to working with.
+
+    ![Base Layout](./images/admin_1.png)
+
+    The important features that I consider to have is:
+    - Create an Island Entry
+    - Edit an Island Entry
+    - Delete an Island Entry
+    - Enable / Disable islands easily (Requested by Liz)
+    - Upload and Select Images
+    - Allow for different languages
+      - By having different sets of language dependent data on its own field
+    - Have a list of Connections that can be added / modified / deleted
+
+    I also included some quality of life features such as:
+    - Warning before deleting an entry
+    - Entry is highlighted yellow when it is not saved
+    - Success messages for any action
+    - Save all entries at once
+
+    ![New Unsaved Entry](./images/admin_4.png)
+    ![Edit Page](./images/admin_2.png)
+    ![New Language](./images/admin_3.png)
+    ![Image Selector](./images/admin_5.png)
+    ![Overall View](./images/admin_6.png)
+
+    On the backend side, I made sure that all the POST, GET, PUT, and DELETE requests all worked nicely with the database,
+
+    Bugs & issues:
+    - There were some bugs / issue where my old Island Schema originally had a separate ID field which conflicted with the mongoDB auto-assigned id
+    - Everytime we need to update the schema, we will have to update a bunch of backend / frontend fields, but we can narrow it down to 4 main locations
+      - schema file
+      - server Router files (This is what is fetched / inserted into the database)
+      - Server (If its a new thing we gotta mount the api link thing)
+      - The functions that Loads, Adds, Updates the objects
+
+    There are still one thing that i haven't implemented, and its the deletion of images, but we can stall that one for now
+## WEEK 6: 
 
 I planned to work more on the project during class time for this week.
 
