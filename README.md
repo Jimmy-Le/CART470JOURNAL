@@ -1,6 +1,22 @@
 # CART470JOURNAL
+## (NEW) WEEK 8
 
-## (NEW) WEEK 7
+This week I added in audio field for the database. There is also updated fields for a Connection, but it is currently unused.
+
+I also worked on having a different page spawn when clicking "more details" on an island, but only the infrastructure for it is set up. I tried to figure out how to make islands use information from the database and pass it down using props, but it is incredibly difficult with the current codebase :(
+
+I took a solid 3 hours just trying to figure out how to separate the islands, and like I got stun-locked and went around in circles.
+So this week, I planned for us to meet up during class to reassess what we need to do.
+
+I think the biggest issues we need to handle is
+1. Clearly set tasks and stick with the tasks: We are sometimes working on the same tasks or working more than what was planned which overlaps with another person's domain.
+2. Modularize The Code: Too many parts of the code are too built in with eachother.
+3. Settle on Datatypes: We have different definitions for "islands", we need to merge both which means we need to figure out what info to have.
+
+While i am kinda pissed at how things are being done, I don't really blame them as I understand that React is new to them and they are making good progress. The only issue is that we are accumulating an insane amount of technical debt and making it hard for all of us to work together.
+
+
+## WEEK 7
 This week, I worked on making the admin page!
 
 While the code is like 110% AI generated, I made sure to read and understand what each part was doing and combined it with my own knowledge about this stuff. I usually don't like doing this, but since this isn't a programming class and we kinda have a deadline, i'll give myself a pass for now.
