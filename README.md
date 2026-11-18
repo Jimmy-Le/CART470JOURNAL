@@ -1,5 +1,22 @@
 # CART470JOURNAL
-## (NEW) WEEK 8
+
+## (NEW) WEEK 9
+
+This week we decided to reorient ourselves to get a cohesive project. Our first order is to make a figma prototype before touching the code. As such I made some figma designs for the Admin page, which incorporates some new fields that are required by my teammates such as Coordinates, Linked Islands, SVG Island, Decoration Picture
+
+![Admin Prototype](./images/Admin_Prototype.png)
+
+I've also created a new google account with its own mongo db database and the google drive api set up. I've manage to make the website allow upload to the google drive, but fetching it is still a work in progress. An issue rn is that the database holds a reference to the images, which means that if you manually delete from the google drive, the database is currently not updated.
+
+![Google Drive](./images/Google_Drive.png)
+
+For audio, i believe i can use the same system but make it funnel to a different folder, so once the images get working, it should be smooter to implement.
+
+If we have time I could even split up the images folder further into its own category, but as of now it will all share one folder.
+
+After that it will be all styling and helping out with integrations
+
+## WEEK 8
 
 This week I added in audio field for the database. There is also updated fields for a Connection, but it is currently unused.
 
