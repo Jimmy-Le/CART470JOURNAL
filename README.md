@@ -1,6 +1,21 @@
 # CART470JOURNAL
+## (NEW) WEEK 10
+This week I got the audio to work with the google drive, and updated the database to have all the fields that we will need.
+The Admin page also is updated to be able to edit every field listed on the figma except for coordinates
+ie:
+- ImageHub (a small window with all the different images to edit)
+- Small "hamburger" menu button for the actions
+- linked islands dropdown for connections
+- enabled status for languages and connections (so liz can maybe disable certain languages if they aren't ready)
 
-## (NEW) WEEK 9
+There was also a "bug" i had to deal with, where the google drive api token expires when it is in the Testing build. So I had to push it to Production.
+
+![ImageHub](./images/ImageHub.png)
+![Hamburger](./images/hamburgerMenu.png)
+
+The next step would be to create the Edit coordinates UI, but we will need to get the map working for that first so that we can have a nice visual indicator whenever we change the x or y positions.
+
+## WEEK 9
 
 This week we decided to reorient ourselves to get a cohesive project. Our first order is to make a figma prototype before touching the code. As such I made some figma designs for the Admin page, which incorporates some new fields that are required by my teammates such as Coordinates, Linked Islands, SVG Island, Decoration Picture
 
